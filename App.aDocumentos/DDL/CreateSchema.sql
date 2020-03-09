@@ -50,6 +50,8 @@ begin
 		[UpdateAt] [datetime] NULL,
 		[Ativo] [bit] NOT NULL Default (1),
 	 CONSTRAINT [PK_Produtos] PRIMARY KEY CLUSTERED ([Id] ASC)
+	 , CONSTRAINT FK_Produto_Fornecedor FOREIGN KEY ([FornecedorId])
+        REFERENCES Fornecedores ([Id])
 	) ON [PRIMARY]
 end;
 GO

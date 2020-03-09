@@ -46,6 +46,7 @@
   <ItemGroup>
     <Content Include="DDL\CreateSchema.sql" />
     <Content Include="DML\PreSetInformations.sql" />
+    <Content Include="MER.PNG" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Teste Prático - Certsys.pdf" />
